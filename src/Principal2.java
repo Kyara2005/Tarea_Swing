@@ -1,7 +1,5 @@
-public class Main {
+public class Principal2 {
     public static void main(String[] args) {
-
-        new Formulario1();
         new Formulario2();
     }
 }

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Formulario2">
+  <grid id="27dc6" binding="Principal2" layout-manager="GridLayoutManager" row-count="12" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1327" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ca6d6" class="javax.swing.JLabel" binding="pregunta1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="¿Qué es el polimorfismo en Java?"/>
+        </properties>
+      </component>
+      <component id="54bd4" class="javax.swing.JLabel" binding="pregunta2">
+        <constraints>
+          <grid row="3" column="0" row-span="4" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="¿Cuál es el modificador de acceso que permite visibilidad en todo el paquete?"/>
+        </properties>
+      </component>
+      <component id="56890" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Una clase abstracta puede tener métodos con cuerpo."/>
+        </properties>
+      </component>
+      <component id="2c5a6" class="javax.swing.JButton" binding="inactivarButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Inactivar"/>
+        </properties>
+      </component>
+      <component id="64e70" class="javax.swing.JRadioButton" binding="p1a">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A) La capacidad de sobrecargar variables"/>
+        </properties>
+      </component>
+      <component id="2b721" class="javax.swing.JRadioButton" binding="p2a">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="B) La capacidad de una clase de comportarse de múltiples formas "/>
+        </properties>
+      </component>
+      <component id="62890" class="javax.swing.JRadioButton" binding="p3a">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="C) Usar múltiples clases en un solo archivo"/>
+        </properties>
+      </component>
+      <component id="ebe33" class="javax.swing.JRadioButton" binding="p2b">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="B) Public"/>
+        </properties>
+      </component>
+      <component id="561a0" class="javax.swing.JRadioButton" binding="p1b">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A) Private"/>
+        </properties>
+      </component>
+      <component id="69980" class="javax.swing.JRadioButton" binding="p3b">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="C) Default "/>
+        </properties>
+      </component>
+      <component id="dd8b9" class="javax.swing.JRadioButton" binding="verdadero">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Verdadero"/>
+        </properties>
+      </component>
+      <component id="5ce8a" class="javax.swing.JRadioButton" binding="falso">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Falso"/>
+        </properties>
+      </component>
+      <component id="d6e91" class="javax.swing.JButton" binding="verResultadoButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ver resultado"/>
+        </properties>
+      </component>
+      <component id="85690" class="javax.swing.JButton" binding="limpiarButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+      <component id="7f659" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="19" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TEST"/>
+        </properties>
+      </component>
+      <component id="5cd01" class="javax.swing.JLabel" binding="resultado">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Resultado"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
